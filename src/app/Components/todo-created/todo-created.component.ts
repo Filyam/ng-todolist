@@ -34,7 +34,7 @@ export class TodoCreatedComponent implements OnInit {
   onDelete(todo: Todo): void {
     this.todoService.delete(todo.id);
   }
-  completed(todo: Todo): void {
-  }
+  completed(todo: Todo): void {}
+
 
 }
