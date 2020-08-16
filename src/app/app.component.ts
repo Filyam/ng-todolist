@@ -8,8 +8,4 @@ import {FormControl} from '@angular/forms';
 })
 export class AppComponent {
   title = 'todo';
-  addedTodo;
-  getFormValue(addedTodo: string) {
-    this.addedTodo = addedTodo;
-  }
 }
